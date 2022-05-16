@@ -1,0 +1,109 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+
+/* Container Style */
+
+.container {
+    margin: 52px auto;
+    width: 900px;
+}
+
+
+.col {
+    width: calc(100% / 3);
+    display:  inline-block;
+    margin: 0 -2px 30px;
+    padding: 4px;
+}
+
+/* Shoes Images Style */
+
+.shoes, img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.shoes img.img-hide {
+    display: none;
+}
+
+.shoes:hover img.img-hide {
+    display: inline;
+}
+
+.showcase {
+    position: absolute;
+}
+
+.badge {
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.red {
+    background: #EB0037;
+}
+
+.green {
+    background: #00875A;
+    margin-left: 2px;
+}
+
+.favorite {
+    position: absolute;
+    right: 0;
+    color: grey;
+    background: darkgrey;
+    padding: 8px 12px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;  
+}
+
+.favorite:hover {
+
+    color: red;
+    background: grey;
+
+}
+
+
+.price {
+    font-weight: 800;
+    font-size: 12px;
+    color: red;
+    text-decoration: none;
+}
+
+.price.discount {
+    color: black;
+    text-decoration: line-through;
+}
+
+.info-box > h4 {
+    margin-top: 20px;
+}
+
+/* Image Hide and SHow */
+
