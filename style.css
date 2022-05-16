@@ -11,7 +11,7 @@ body {
     background: white;
 }
 
-h2{
+h2  {
     text-transform: uppercase;
 }
 
@@ -23,6 +23,7 @@ h2{
     width: 900px;
 }
 
+/* Columns Style */
 
 .col {
     width: calc(100% / 3);
@@ -31,7 +32,8 @@ h2{
     padding: 4px;
 }
 
-/* Shoes Images Style */
+
+/* Shoes Image Style */
 
 .shoes, img {
     position: relative;
@@ -54,6 +56,8 @@ h2{
     position: absolute;
 }
 
+/* Price Badges */
+
 .badge {
     padding: 4px 8px;
     font-size: 14px;
@@ -69,6 +73,20 @@ h2{
     background: #00875A;
     margin-left: 2px;
 }
+
+.price {
+    font-weight: 800;
+    font-size: 12px;
+    color: red;
+    text-decoration: none;
+}
+
+.price.discount {
+    color: black;
+    text-decoration: line-through;
+}
+
+/* Favorite Button */
 
 .favorite {
     position: absolute;
@@ -88,22 +106,10 @@ h2{
 
 }
 
-
-.price {
-    font-weight: 800;
-    font-size: 12px;
-    color: red;
-    text-decoration: none;
-}
-
-.price.discount {
-    color: black;
-    text-decoration: line-through;
-}
+/* Info Box Margin */
 
 .info-box > h4 {
     margin-top: 20px;
 }
 
-/* Image Hide and SHow */
 
